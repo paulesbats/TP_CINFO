@@ -8,5 +8,5 @@ Personnage::Personnage()
 
 }
 std::string new_pos(){
-    return notify();
+     NotifierCollision notify();
 }

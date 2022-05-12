@@ -1,11 +1,15 @@
 #ifndef NOTIFIERCOLLISION_H
 #define NOTIFIERCOLLISION_H
+#include <string>
 
-
-class notifiercollision
+class NotifierCollision
 {
+private:
+
+
 public:
-    notifiercollision();
+    NotifierCollision();
+    std::string notify();
 };
 
 #endif // NOTIFIERCOLLISION_H
