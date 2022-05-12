@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
+<<<<<<< HEAD
 <!-- Written by QtCreator 7.0.1, 2022-05-12T09:38:24. -->
+=======
+<!-- Written by QtCreator 7.0.1, 2022-05-12T09:36:21. -->
+>>>>>>> 71953971b2e8236e2dbbb9f402f93a197055ee67
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -240,14 +244,23 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/abonn/TP_CINFO/TP_CINFO.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/abonn/TP_CINFO/TP_CINFO.pro</value>
+=======
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/equin/TP_CINFO/TP_CINFO.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/equin/TP_CINFO/TP_CINFO.pro</value>
+>>>>>>> 71953971b2e8236e2dbbb9f402f93a197055ee67
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+<<<<<<< HEAD
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/abonn/build-TP_CINFO-Desktop_Qt_6_3_0_MSVC2019_64bit-Debug</value>
+=======
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/equin/build-TP_CINFO-Desktop_Qt_6_4_0_MSVC2019_64bit-Debug</value>
+>>>>>>> 71953971b2e8236e2dbbb9f402f93a197055ee67
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
