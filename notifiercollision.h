@@ -3,7 +3,10 @@
 #include <string>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0dcfd74504504d4b7ac5c778adb35ab27b8ab129
 =======
 >>>>>>> 0dcfd74504504d4b7ac5c778adb35ab27b8ab129
 class NotifierCollision
@@ -14,6 +17,10 @@ private:
 public:
     NotifierCollision();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    std::string notify();
+>>>>>>> 0dcfd74504504d4b7ac5c778adb35ab27b8ab129
 =======
     std::string notify();
 >>>>>>> 0dcfd74504504d4b7ac5c778adb35ab27b8ab129
