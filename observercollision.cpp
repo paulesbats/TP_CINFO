@@ -1,14 +1,14 @@
 #include "observercollision.h"
-#include "NotifierCollision.h"
+
 
 
 ObserverCollision::ObserverCollision()
 {
 
 }
-void collision(NotifierCollision notifieur){
 
-}
-bool test_collision(int x, int y){
-    if
+bool ObserverCollision::test_collision(int x, int y){
+    if(x==pos_x && y==pos_y){
+    }
+
 }

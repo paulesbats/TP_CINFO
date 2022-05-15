@@ -2,10 +2,10 @@
 #define NOTIFIERCOLLISION_H
 
 
-class notifiercollision
+class NotifierCollision
 {
 public:
-    notifiercollision();
+    NotifierCollision();
 };
 
 #endif // NOTIFIERCOLLISION_H
