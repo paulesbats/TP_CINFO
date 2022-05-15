@@ -1,7 +1,8 @@
 #include "notifiercollision.h"
+#include <string>
 
 NotifierCollision::NotifierCollision()
 {
 
 }
-void notify(){}
+std::string NotifierCollision::notify(){}
