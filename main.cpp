@@ -25,7 +25,7 @@ int main(int argc, char** argv)
         {
             std::cout << "Collision" << std::endl;
         }
-    } catch(ExceptionSizeTab) {
+    } catch(ExceptionSizeTab&) {
         std::cout << "ExceptionSizeTab levée." << std::endl;
     }
 
@@ -34,7 +34,7 @@ int main(int argc, char** argv)
         {
             std::cout << "Collision" << std::endl;
         }
-    } catch(ExceptionSizeTab& e) {
+    } catch(ExceptionSizeTab&) {
         std::cout << "ExceptionSizeTab levée." << std::endl;
     }
 
