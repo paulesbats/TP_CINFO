@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <iostream>
-#include "exceptionsizetab.h"
+
 using namespace std;
 
 class ExceptionBounds{
@@ -13,12 +13,19 @@ class ExceptionCommand{
 
 };
 
+
+#include "exceptionsizetab.h"
+using namespace std;
+
+
 bool deplacer_personnage(int &x, int &y, std::string cmd);
 bool detecter_collision(int ennemis_x[], int ennemis_y[],int nb_ennemis, int x, int y);
+
 
 int main(int argc, char** argv)
 {
     int x=5, y=4;
+
     int enn_x[4] = {1,2,3,4}, enn_y[4] = {1, 2, 3, 4};
     try {
         if (detecter_collision(enn_x, enn_y, 4, x, y))
@@ -41,6 +48,7 @@ int main(int argc, char** argv)
 
 
 
+
     std::string saisie;
     while (true){
     std::getline(std::cin,saisie);
@@ -50,6 +58,12 @@ int main(int argc, char** argv)
     }  catch (ExceptionBounds& e) {
           std::cout << "Vous sortez des limites" << std::endl;
           deplacer_personnage(x,y, saisie);
+
+    }
+    catch (ExceptionCommand& e){
+        std::cout << "Vous n'avez pas rentré une commande valide" << std::endl;
+    }
+
     }
     catch (ExceptionCommand& e){
         std::cout << "Vous n'avez pas rentré une commande valide" << std::endl;
@@ -109,12 +123,9 @@ bool deplacer_personnage(int &x, int &y, std::string cmd){
         throw ExceptionCommand();
     }
 
+
+    std::cout << x << " et " << y << std::endl;
+    }
+    return 0;
 }
 
-bool detecter_collision(int ennemis_x[], int ennemis_y[],int nb_ennemis, int x, int y)
-{
-    if (nb_ennemis <= 0)
-        throw ExceptionSizeTab() ;
-    return true;
-
-}
