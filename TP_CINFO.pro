@@ -9,6 +9,9 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    clyde.cpp \
+    ennemi.cpp \
+    exceptionsizetab.cpp \
     main.cpp \
     mainwindow.cpp \
     notifiercollision.cpp \
@@ -19,9 +22,15 @@ SOURCES += \
     drawableelem.cpp \
     interactive.cpp \
     movable.cpp \
-    regularmove.cpp
+    regularmove.cpp \
+    observercollision.cpp \
+    personnage.cpp
+
 
 HEADERS += \
+    clyde.h \
+    ennemi.h \
+    exceptionsizetab.h \
     mainwindow.h \
     notifiercollision.h \
     animatedwidget.h \
@@ -32,6 +41,8 @@ HEADERS += \
     interactive.h \
     movable.h \
     regularmove.h \
+    observercollision.h \
+
     personnage.h
 
 FORMS += \
