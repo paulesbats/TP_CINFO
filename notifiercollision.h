@@ -1,19 +1,13 @@
-#ifndef NOTIFIERCOLLISION_H
-#define NOTIFIERCOLLISION_H
 #include <string>
 
-
-
-class NotifierCollision
+class NotifierCollision:public Personnage
 {
 private:
-
+    int pos_x;
+    int pos_y;
 
 public:
     NotifierCollision();
-
     std::string notify();
 
 };
-
-#endif // NOTIFIERCOLLISION_H

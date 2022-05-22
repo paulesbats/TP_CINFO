@@ -1,15 +1,17 @@
 #include "personnage.h"
 #include "notifiercollision.h"
 #include <iostream>
-#include <string.h>
+#include <string>
 
 Personnage::Personnage()
 {
 
 }
-std::string personnage::new_pos(){
+int new_pos(int pos_x, int pos_y){
      NotifierCollision notify();
+     return pos_x pos_y;
 }
-void personnage::setDeplacement(std::string move){
-    deplacement = move ;
+void setDeplacement(std::string move){
+    deplacement = move;
+    notify();
 }

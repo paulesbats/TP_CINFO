@@ -1,8 +1,4 @@
-#ifndef PERSONNAGE_H
-#define PERSONNAGE_H
-<<<<<<< HEAD
-#include <iostream>
-#include <string.h>
+#include <string>
 #include "notifiercollision.h"
 
 class Personnage:public NotifierCollision
@@ -10,33 +6,11 @@ class Personnage:public NotifierCollision
 private:
     int pos_x;
     int pos_y;
+    std::string deplacement;
 public:
     Personnage();
-    std::string new_pos();
+    int new_pos(int pos_x, int pos_y);
     int set_pos(int pos_x, int pos_y);
+    void setDeplacement();
 };
-=======
->>>>>>> origin/master
 
-#endif // PERSONNAGE_H
-#include <string.h>
-#include <iostream>
-class personnage
-       {
-  private :
-    int pos_x;
-    int pos_y;
-    std::string deplacement;
-
-
-public :
-    void setDeplacement(std::string move);
-    std::string new_pos();
-
-
-
-
-
-
-
-};
