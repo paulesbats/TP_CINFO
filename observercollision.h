@@ -1,5 +1,3 @@
-#ifndef OBSERVERCOLLISION_H
-#define OBSERVERCOLLISION_H
 #include "notifiercollision.h"
 
 
@@ -14,5 +12,3 @@ public:
     bool test_collision(int x, int y);
 
 };
-
-#endif // OBSERVERCOLLISION_H
