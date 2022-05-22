@@ -1,6 +1,6 @@
 #ifndef OBSERVERCOLLISION_H
 #define OBSERVERCOLLISION_H
-
+#include "notifiercollision.h"
 
 
 class ObserverCollision

@@ -40,6 +40,7 @@ HEADERS += \
     drawableelem.h \
     interactive.h \
     movable.h \
+    personnage.h \
     regularmove.h \
     observercollision.h \
 

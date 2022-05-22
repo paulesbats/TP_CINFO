@@ -7,6 +7,9 @@ Personnage::Personnage()
 {
 
 }
-std::string new_pos(){
+std::string personnage::new_pos(){
      NotifierCollision notify();
+}
+void personnage::setDeplacement(std::string move){
+    deplacement = move ;
 }
