@@ -1,5 +1,5 @@
 #include "observercollision.h"
-
+#include "personnage.h"
 
 
 ObserverCollision::ObserverCollision()
@@ -8,7 +8,10 @@ ObserverCollision::ObserverCollision()
 }
 
 bool ObserverCollision::test_collision(int x, int y){
-    if(x==pos_x && y==pos_y){
+    if(x==getpos_x() && y==getpos_y() ){
+        return true;
     }
-
+    else{
+        return false;
+    }
 }

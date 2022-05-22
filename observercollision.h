@@ -1,9 +1,8 @@
-#ifndef OBSERVERCOLLISION_H
-#define OBSERVERCOLLISION_H
+
 #include "notifiercollision.h"
+#include "personnage.h"
 
-
-class ObserverCollision
+class ObserverCollision:public Personnage
 {
 private:
 
@@ -15,4 +14,4 @@ public:
 
 };
 
-#endif // OBSERVERCOLLISION_H
+

@@ -1,10 +1,9 @@
 #include <string>
+#include "personnage.h"
 
 class NotifierCollision:public Personnage
 {
 private:
-    int pos_x;
-    int pos_y;
 
 public:
     NotifierCollision();
