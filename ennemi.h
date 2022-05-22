@@ -16,6 +16,4 @@ void deplacer(int x,int y);
 virtual void new_pos()=0;
 void collision(NotifierCollision notifieur);
 
-
-
 };

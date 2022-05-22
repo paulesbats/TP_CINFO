@@ -28,7 +28,7 @@ bool detecter_collision(int ennemis_x[], int ennemis_y[],int nb_ennemis, int x, 
 int main(int argc, char** argv)
 {
     int x=5, y=4;
-    personnage personnage1;
+    Personnage personnage1;
     Clyde clyde1 ,clyde2;
 
     int enn_x[4] = {1,2,3,4}, enn_y[4] = {1, 2, 3, 4};

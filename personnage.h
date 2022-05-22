@@ -1,7 +1,8 @@
 #include <string>
 #include "notifiercollision.h"
+#include "observercollision.h"
 
-class Personnage:public NotifierCollision
+class Personnage:public NotifierCollision,public ObserverCollision
 {
 private:
     int pos_x;
@@ -13,5 +14,6 @@ public:
     void setDeplacement();
     int getpos_x();
     int getpos_y();
+    void collision(NotifierCollision notifieur);
 };
 
