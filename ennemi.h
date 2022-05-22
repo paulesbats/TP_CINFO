@@ -1,4 +1,3 @@
-#ifndef ENNEMI_H
 #define ENNEMI_H
 #include <iostream>
 #include "observercollision.h"
