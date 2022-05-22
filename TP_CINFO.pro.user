@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<<<<<<< HEAD
-<!-- Written by QtCreator 4.14.2, 2022-05-12T09:48:43. -->
+<!-- Written by QtCreator 4.14.2, 2022-05-22T14:24:24. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
   <value type="QByteArray">{9529e218-637e-4d4c-a6b9-2cf0a0168590}</value>
-=======
-<<<<<<< HEAD
-<!-- Written by QtCreator 7.0.1, 2022-05-12T09:38:24. -->
-=======
-<!-- Written by QtCreator 7.0.1, 2022-05-12T09:36:21. -->
->>>>>>> 71953971b2e8236e2dbbb9f402f93a197055ee67
-<qtcreator>
- <data>
-  <variable>EnvironmentId</variable>
-  <value type="QByteArray">{5c9033ce-9751-46ca-a90c-f48689357f48}</value>
->>>>>>> refs/remotes/origin/master
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -100,7 +88,6 @@
   <variable>ProjectExplorer.Project.Target.0</variable>
   <valuemap type="QVariantMap">
    <value type="QString" key="DeviceType">Desktop</value>
-<<<<<<< HEAD
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop Qt 6.0.3 MinGW 64-bit</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop Qt 6.0.3 MinGW 64-bit</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">qt.qt6.603.win64_mingw81_kit</value>
@@ -111,18 +98,6 @@
     <value type="int" key="EnableQmlDebugging">0</value>
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\dunan\build-TP_CINFO-Desktop_Qt_6_0_3_MinGW_64_bit-Debug</value>
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/dunan/build-TP_CINFO-Desktop_Qt_6_0_3_MinGW_64_bit-Debug</value>
-=======
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop Qt 6.3.0 MSVC2019 64bit</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop Qt 6.3.0 MSVC2019 64bit</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">qt.qt6.630.win64_msvc2019_64_kit</value>
-   <value type="qlonglong" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
-   <value type="qlonglong" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
-   <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
-   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
-    <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\abonn\build-TP_CINFO-Desktop_Qt_6_3_0_MSVC2019_64bit-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/abonn/build-TP_CINFO-Desktop_Qt_6_3_0_MSVC2019_64bit-Debug</value>
->>>>>>> refs/remotes/origin/master
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -161,13 +136,8 @@
     <value type="int" key="RunSystemFunction">0</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\dunan\build-TP_CINFO-Desktop_Qt_6_0_3_MinGW_64_bit-Release</value>
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/dunan/build-TP_CINFO-Desktop_Qt_6_0_3_MinGW_64_bit-Release</value>
-=======
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\abonn\build-TP_CINFO-Desktop_Qt_6_3_0_MSVC2019_64bit-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/abonn/build-TP_CINFO-Desktop_Qt_6_3_0_MSVC2019_64bit-Release</value>
->>>>>>> refs/remotes/origin/master
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -208,13 +178,8 @@
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
     <value type="int" key="EnableQmlDebugging">0</value>
-<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\dunan\build-TP_CINFO-Desktop_Qt_6_0_3_MinGW_64_bit-Profile</value>
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/dunan/build-TP_CINFO-Desktop_Qt_6_0_3_MinGW_64_bit-Profile</value>
-=======
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\abonn\build-TP_CINFO-Desktop_Qt_6_3_0_MSVC2019_64bit-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/abonn/build-TP_CINFO-Desktop_Qt_6_3_0_MSVC2019_64bit-Profile</value>
->>>>>>> refs/remotes/origin/master
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -329,30 +294,14 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-<<<<<<< HEAD
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CustomExecutableRunConfiguration</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey"></value>
-=======
-<<<<<<< HEAD
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/abonn/TP_CINFO/TP_CINFO.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/abonn/TP_CINFO/TP_CINFO.pro</value>
-=======
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/equin/TP_CINFO/TP_CINFO.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/equin/TP_CINFO/TP_CINFO.pro</value>
->>>>>>> 71953971b2e8236e2dbbb9f402f93a197055ee67
->>>>>>> refs/remotes/origin/master
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/dunan/TP_CINFO/TP_CINFO.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/dunan/TP_CINFO/TP_CINFO.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/abonn/build-TP_CINFO-Desktop_Qt_6_3_0_MSVC2019_64bit-Debug</value>
-=======
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/equin/build-TP_CINFO-Desktop_Qt_6_4_0_MSVC2019_64bit-Debug</value>
->>>>>>> 71953971b2e8236e2dbbb9f402f93a197055ee67
->>>>>>> refs/remotes/origin/master
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/dunan/build-TP_CINFO-Desktop_Qt_6_0_3_MinGW_64_bit-Debug</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
