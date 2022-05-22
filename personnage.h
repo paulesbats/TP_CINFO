@@ -7,8 +7,8 @@
 class Personnage:public NotifierCollision
 {
 private:
-    std::string pos_x;
-    std::string pos_y;
+    int pos_x;
+    int pos_y;
 public:
     Personnage();
     std::string new_pos();
