@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 7ffbc83ce96f238bf290546a318e671ac893f19f
 #include "notifiercollision.h"
 #include "personnage.h"
 
@@ -16,8 +12,4 @@ public:
     bool test_collision(int x, int y);
 
 };
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 7ffbc83ce96f238bf290546a318e671ac893f19f
