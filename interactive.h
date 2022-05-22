@@ -10,9 +10,9 @@ class Interactive : public RegularMove
     Q_OBJECT
 public:
     Interactive(int x, int y, Background *parent);
-    virtual void key_pressed(char key)=0;
-    virtual void arrow_pressed(std::string cmd)=0;
-
+    virtual void key_pressed(char key);
+    virtual void arrow_pressed(std::string cmd);
+    void update_pos();
     void keyPressEvent(QKeyEvent* event);
 };
 

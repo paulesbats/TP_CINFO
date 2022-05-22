@@ -5,7 +5,8 @@
 
 class Drawable : public QWidget
 {
-    Q_OBJECT
+private:
+    Q_OBJECT;
 public:
     Drawable(QWidget *parent);
     void set_background_image(std::string filename);

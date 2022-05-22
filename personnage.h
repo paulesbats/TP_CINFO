@@ -1,11 +1,10 @@
 #include <string>
 #include "notifiercollision.h"
+#include "interactive.h"
 
-class Personnage:public NotifierCollision
+class Personnage:public NotifierCollision, Interactive
 {
 private:
-    int pos_x;
-    int pos_y;
     std::string deplacement;
 public:
     Personnage();
