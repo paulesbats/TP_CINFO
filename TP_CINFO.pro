@@ -42,7 +42,7 @@ HEADERS += \
     personnage.h \
     regularmove.h \
     observercollision.h \
-    personnage.h
+
 
 FORMS += \
     mainwindow.ui
