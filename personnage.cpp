@@ -1,10 +1,10 @@
 #include "personnage.h"
 #include "notifiercollision.h"
-#include "observercollision.h"
 #include <iostream>
 #include <string>
 
 Personnage::Personnage()
+    :NotifierCollision()
 {
 
 }
@@ -13,11 +13,6 @@ int Personnage::new_pos(int pos_x, int pos_y){
 
      return pos_x , pos_y;
 
-     return pos_x, pos_y;
-
-     return pos_x , pos_y;
-
-     return pos_x, pos_y;
 
 }
 void Personnage::setDeplacement(std::string move){
@@ -29,9 +24,4 @@ int Personnage::getpos_x(){
 }
 int Personnage::getpos_y(){
     return pos_y;
-}
-void Personnage::collision(NotifierCollision notifieur){
-    if (test_collision(pos_x,pos_y)){
-        std::cout<<"il y a eu une collision"<<std::endl;
-    }
 }

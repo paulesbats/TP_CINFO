@@ -1,6 +1,8 @@
 #include "ennemi.h"
 #include <iostream>
+#include <random>
 Ennemi::Ennemi()
+    :ObserverCollision(),NotifierCollision()
 {
 
 
@@ -15,4 +17,15 @@ void Ennemi::deplacer(int x,int y){
     pos_y=pos_y+ y;
     notify();
 
+}
+void Ennemi::update_pos(){
+<<<<<<< HEAD
+std::random_device rd;   // non-deterministic generator
+std::mt19937 gen(rd());
+pos_x= pos_x +gen();
+pos_y=pos_y+ gen();
+notify();
+=======
+    notify();
+>>>>>>> pastille
 }

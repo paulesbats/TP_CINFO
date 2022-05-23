@@ -13,4 +13,3 @@ public:
     bool test_collision(int x, int y);
 
 };
-
