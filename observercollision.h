@@ -1,7 +1,9 @@
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
 >>>>>>> 0a2dc7ce6d8d6bbdbbd9839633d1c12628f64259
+=======
+>>>>>>> pastille
 #include "notifiercollision.h"
 #include "personnage.h"
 
@@ -17,6 +19,9 @@ public:
 
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0a2dc7ce6d8d6bbdbbd9839633d1c12628f64259
+=======
+>>>>>>> pastille
