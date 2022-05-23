@@ -6,6 +6,6 @@ NotifierCollision::NotifierCollision()
 {
 
 }
-std::string NotifierCollision::notify(int x,int y){
-    test_collision(int x,int y);
+std::string notify(int x,int y){
+    test_collision(x,y);
 }
