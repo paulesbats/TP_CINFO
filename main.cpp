@@ -1,16 +1,11 @@
 #include <QApplication>
-#include <stdlib>
-#include <string>
+#include <stdlib.h>
+#include <string.h>
 #include <iostream>
 #include "personnage.h"
 #include "clyde.h"
-#include "observercollision.h"
 
-
-
-
-
-
+//test
 using namespace std;
 
 class ExceptionBounds{
@@ -33,7 +28,7 @@ bool detecter_collision(int ennemis_x[], int ennemis_y[],int nb_ennemis, int x, 
 int main(int argc, char** argv)
 {
     int x=5, y=4;
-    Personnage personnage1;
+    personnage personnage1;
     Clyde clyde1 ,clyde2;
 
     int enn_x[4] = {1,2,3,4}, enn_y[4] = {1, 2, 3, 4};
@@ -54,6 +49,11 @@ int main(int argc, char** argv)
     } catch(ExceptionSizeTab&) {
         std::cout << "ExceptionSizeTab levée." << std::endl;
     }
+
+
+
+
+
     std::string saisie;
     while (true){
     std::getline(std::cin,saisie);
@@ -72,10 +72,16 @@ int main(int argc, char** argv)
     std::cout << x << " et " << y << std::endl;
     }
 
+
+
+
+
+
+
+
+
     return 0;
 }
-
-
 
 bool deplacer_personnage(int &x, int &y, std::string cmd){
     const int xmin = 0;
@@ -128,5 +134,5 @@ bool deplacer_personnage(int &x, int &y, std::string cmd){
 
 
     std::cout << x << " et " << y << std::endl;
-}
+    }
 
