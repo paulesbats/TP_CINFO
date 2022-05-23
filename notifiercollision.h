@@ -7,6 +7,6 @@ private:
 
 public:
     NotifierCollision();
-    std::string notify();
+    void notify();
 
 };

@@ -15,6 +15,7 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     notifiercollision.cpp \
+    pastille.cpp \
     personnage.cpp \
     animatedwidget.cpp \
     background.cpp \
@@ -40,6 +41,7 @@ HEADERS += \
     drawableelem.h \
     interactive.h \
     movable.h \
+    pastille.h \
     personnage.h \
     regularmove.h \
     observercollision.h \

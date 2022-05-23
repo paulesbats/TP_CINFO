@@ -2,8 +2,9 @@
 #include <iostream>
 #include "observercollision.h"
 #include "notifiercollision.h"
+#include "regularmove.h"
 
-class Ennemi:public ObserverCollision ,public NotifierCollision
+class Ennemi:public ObserverCollision ,public NotifierCollision, public regularmove
 {
 private:
 int pos_x;
@@ -15,7 +16,7 @@ Ennemi();
 void deplacer(int x,int y);
 virtual void new_pos()=0;
 void collision(NotifierCollision notifieur);
-
+void update_pos();
 
 
 };
