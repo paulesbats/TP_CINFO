@@ -1,6 +1,7 @@
 #include "ennemi.h"
 #include <iostream>
 Ennemi::Ennemi()
+    :ObserverCollision(),NotifierCollision()
 {
 
 
@@ -15,4 +16,7 @@ void Ennemi::deplacer(int x,int y){
     pos_y=pos_y+ y;
     notify();
 
+}
+void Ennemi::update_pos(){
+    notify();
 }
