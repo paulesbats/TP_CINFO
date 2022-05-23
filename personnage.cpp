@@ -10,17 +10,15 @@ Personnage::Personnage()
 }
 int Personnage::new_pos(int pos_x, int pos_y){
      NotifierCollision notify();
-<<<<<<< HEAD
 
      return pos_x , pos_y;
 
      return pos_x, pos_y;
 
-=======
      return pos_x , pos_y;
 
      return pos_x, pos_y;
->>>>>>> 0a2dc7ce6d8d6bbdbbd9839633d1c12628f64259
+
 }
 void Personnage::setDeplacement(std::string move){
     deplacement = move;
