@@ -23,8 +23,7 @@ SOURCES += \
     movable.cpp \
     regularmove.cpp \
     observercollision.cpp \
-
-
+    personnage.cpp \
 
 HEADERS += \
     clyde.h \
@@ -42,11 +41,6 @@ HEADERS += \
     personnage.h \
     regularmove.h \
     observercollision.h \
-
-<<<<<<< HEAD
-
-=======
->>>>>>> a117a438ab8e72e14c12a28ad6da53ae2746bf38
 
 FORMS += \
     mainwindow.ui
