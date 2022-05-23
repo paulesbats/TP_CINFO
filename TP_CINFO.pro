@@ -1,4 +1,4 @@
-QT       += core gui statemachine
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -15,7 +15,6 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     notifiercollision.cpp \
-    personnage.cpp \
     animatedwidget.cpp \
     background.cpp \
     drawable.cpp \
@@ -43,7 +42,6 @@ HEADERS += \
     personnage.h \
     regularmove.h \
     observercollision.h \
-
     personnage.h
 
 FORMS += \
