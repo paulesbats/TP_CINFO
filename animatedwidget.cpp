@@ -1,4 +1,4 @@
-#include "animatedwidget.h"
+q#include "animatedwidget.h"
 
 AnimatedWidget::AnimatedWidget(int x, int y, Background *parent) : RegularMove(x, y, parent)
 {
