@@ -7,6 +7,10 @@ NotifierCollision::NotifierCollision()
 {
 
 }
+<<<<<<< HEAD
+std::string notify(int x,int y){
+    test_collision(x,y);
+=======
 void NotifierCollision::notify(){
     if (test_collision(getpos_x(),getpos_y()){
             std::cout<<"il y a collision"<<std::endl;
@@ -14,4 +18,5 @@ void NotifierCollision::notify(){
     else {
             std::cout<<"pas de collision"<<std::endl;
     }
+>>>>>>> refs/remotes/origin/master
 }
