@@ -45,7 +45,6 @@ HEADERS += \
     regularmove.h \
     observercollision.h \
 
-
 FORMS += \
     mainwindow.ui
 
