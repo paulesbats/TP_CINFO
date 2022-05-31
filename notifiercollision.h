@@ -1,7 +1,9 @@
+#ifndef NOTIFIERCOLLISION_H
+#define NOTIFIERCOLLISION_H
 #include <string>
-#include "personnage.h"
+#include <observercollision.h>
 
-class NotifierCollision:public Personnage
+class NotifierCollision:public ObserverCollision
 {
 private:
 
@@ -10,3 +12,4 @@ public:
     void notify();
 
 };
+#endif

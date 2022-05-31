@@ -1,8 +1,8 @@
-
+#pragma once
 #include "notifiercollision.h"
-#include "personnage.h"
 
-class ObserverCollision:public Personnage
+
+class ObserverCollision
 {
 private:
 

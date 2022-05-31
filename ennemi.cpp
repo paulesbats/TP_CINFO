@@ -19,13 +19,19 @@ void Ennemi::deplacer(int x,int y){
 
 }
 void Ennemi::update_pos(){
-<<<<<<< HEAD
+
 std::random_device rd;   // non-deterministic generator
 std::mt19937 gen(rd());
 pos_x= pos_x +gen();
 pos_y=pos_y+ gen();
 notify();
-=======
-    notify();
->>>>>>> pastille
+
+}
+int Ennemi::getpos_x(){
+  return pos_x;
+
+}
+int Ennemi::getpos_y(){
+    return pos_y;
+
 }

@@ -1,3 +1,4 @@
+#ifndef ENNEMI_H
 #define ENNEMI_H
 #include <iostream>
 #include "observercollision.h"
@@ -17,6 +18,8 @@ void deplacer(int x,int y);
 virtual void new_pos()=0;
 void collision(NotifierCollision notifieur);
 void update_pos();
-
+int getpos_x();
+int getpos_y();
 
 };
+#endif

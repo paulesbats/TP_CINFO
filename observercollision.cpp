@@ -1,5 +1,5 @@
 #include "observercollision.h"
-#include "personnage.h"
+
 
 
 ObserverCollision::ObserverCollision()
