@@ -1,36 +1,31 @@
 #include "notifiercollision.h"
 #include "observercollision.h"
 #include <string>
-
+#include <vector>
 NotifierCollision::NotifierCollision()
-
+    :observerList(std::vector<ObserverCollision*>())
 {
 
 }
 
-std::string notify(int x,int y){
-    test_collision(x,y);
-}
-void NotifierCollision::notify(){
-    if (test_collision(getpos_x(),getpos_y()){
-            std::cout<<"il y a collision"<<std::endl;
-    }
-    else {
-            std::cout<<"pas de collision"<<std::endl;
-    }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-std::string NotifierCollision::notify(int x,int y){
-    test_collision(int x,int y);
-=======
->>>>>>> 0e6aa519b3134b66949062e606b4b6200db0e39c
-=======
->>>>>>> refs/remotes/origin/master
->>>>>>> 78e08a072abea64066ad7afa5d60a1ecd598e1ba
->>>>>>> 0f053eb6cb66796ee310baa9ae28dcf36b8cb936
+void NotifierCollision::notify(int x,int y){
+    if (observerList[i]->test_collision(x,y)){
+           observerList[i]->collision(this);
 }
 
-// coucou
+void NotifierCollision::addObserver(ObserverCollision *obs){
+      observerList.pushback(obs);
+ }
+
+void NotifierCollision::removeObserver(ObserverCollision *obs){
+
+int position = -1;
+for(int i = 0; i < observerList.size(); i++){
+ if(observerList[i] == obs){
+  position = i;
+  }
+}
+  observerList.erase(observerList.begin() + position);
+
+}

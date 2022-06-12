@@ -1,8 +1,8 @@
 #include "ennemi.h"
 #include <iostream>
 #include <random>
-Ennemi::Ennemi()
-    :ObserverCollision(),NotifierCollision()
+Ennemi::Ennemi(int x, int y, Background* background)
+    :ObserverCollision(),NotifierCollision(),RegularMove( x, y,background)
 {
 
 
@@ -15,20 +15,16 @@ void Ennemi::collision(NotifierCollision notifieur){
 void Ennemi::deplacer(int x,int y){
     pos_x= pos_x +x;
     pos_y=pos_y+ y;
-    notify();
+    notify(pos_x,pos_y);
 }
 
 void Ennemi::update_pos(){
-<<<<<<< HEAD
 
-=======
->>>>>>> 0f053eb6cb66796ee310baa9ae28dcf36b8cb936
 std::random_device rd;   // non-deterministic generator
 std::mt19937 gen(rd());
 pos_x= pos_x +gen();
 pos_y=pos_y+ gen();
-notify();
-<<<<<<< HEAD
+notify(pos_x,pos_y);
 
 }
 int Ennemi::getpos_x(){
@@ -38,6 +34,12 @@ int Ennemi::getpos_x(){
 int Ennemi::getpos_y(){
     return pos_y;
 
-=======
->>>>>>> 0f053eb6cb66796ee310baa9ae28dcf36b8cb936
+}
+bool Ennemi::test_collision(int x, int y){
+    if(x==pos_x && y==pos_y ){
+        return true;
+    }
+    else{
+        return false;
+    }
 }

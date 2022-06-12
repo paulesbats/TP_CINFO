@@ -1,15 +1,17 @@
 #ifndef NOTIFIERCOLLISION_H
 #define NOTIFIERCOLLISION_H
 #include <string>
-#include <observercollision.h>
+#include <vector>
 
-class NotifierCollision:public ObserverCollision
+#include "observercollision.h"
+
+class NotifierCollision
 {
 private:
-
+    std::vector<ObserverCollision*> observerList;
 public:
     NotifierCollision();
-    void notify();
-
+    void notify(int x,int y);
+    void addObserver(ObserverCollision *obs);
 };
 #endif

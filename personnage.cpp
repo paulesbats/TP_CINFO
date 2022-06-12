@@ -2,26 +2,30 @@
 #include "notifiercollision.h"
 #include <iostream>
 #include <string>
+#include "observercollision.h"
 
-Personnage::Personnage()
-    :NotifierCollision()
+Personnage::Personnage(int pos_x, int pos_y, Background* background)
+    :NotifierCollision(),ObserverCollision(),Interactive(pos_x, pos_y, background)
 {
 
 }
-int Personnage::new_pos(int pos_x, int pos_y){
-     NotifierCollision notify();
-
-     return pos_x , pos_y;
+void Personnage::new_pos(int pos_x, int pos_y){}
 
 
+void Personnage::update_pos(){
+    positionner(pos_x, pos_y);
+    notify(pos_x, pos_y);
 }
-void Personnage::setDeplacement(std::string move){
-    deplacement = move;
-    notify();
+
+bool Personnage::test_collision(int x, int y){
+    if(x==pos_x && y==pos_y ){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
-int Personnage::getpos_x(){
-    return pos_x;
-}
-int Personnage::getpos_y(){
-    return pos_y;
+void Personnage::collision(NotifierCollision* notifieur)
+{
+    std::cout << "Collision Personnage" << std::endl;
 }
